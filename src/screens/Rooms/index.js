@@ -32,7 +32,7 @@ const Rooms = () => {
                 </View>
                 <View>
                     <Text style={styles.subHeading}>No Rooms</Text>
-                    <Text style={styles.text}>You didn't made any conversation yet, please select username.</Text>
+                    <Text style={styles.text}>You didn't made any conversation yet, please select</Text>
                 </View>
                 <TouchableOpacity style={styles.btn}>
                     <Text style={styles.btnText}>Create a fun room</Text>

@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontFamily: 'Lato',
         opacity: 0.5,
-        width: windomWidth * 0.8,
+        width: windomWidth * 0.6,
         textAlign: 'center',
         marginBottom: 70,
         lineHeight: 24,
