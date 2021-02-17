@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     },
     subText: {
         color: '#FFFFFF',
-        fontSize: 16,
+        fontSize: 12,
         fontFamily: 'Lato',
         opacity: 0.5,
         textAlign: 'center',
