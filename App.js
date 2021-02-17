@@ -9,13 +9,13 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 
-import Rooms from './src/screens/Rooms';
+import Messages from './src/screens/Messages';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Rooms />
+      <Messages />
     </>
   )
 }
