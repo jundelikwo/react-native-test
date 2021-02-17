@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         opacity: 0.5,
         textAlign: 'center',
         marginTop: 6,
-        lineHeight: 24,
+        lineHeight: 20,
     },
     safeArea: {
         backgroundColor: '#00070F',
