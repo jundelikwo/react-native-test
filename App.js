@@ -9,13 +9,13 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 
-import Ranting from './src/screens/Ranting';
+import Login from './src/screens/Login';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Ranting />
+      <Login />
     </>
   )
 }
