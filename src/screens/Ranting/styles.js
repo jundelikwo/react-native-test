@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
     },
     content: {
         alignItems: 'center',
-        // justifyContent: 'space-between',
         height: '100%'
     },
     btn: {
