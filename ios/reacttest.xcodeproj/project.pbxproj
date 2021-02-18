@@ -20,6 +20,7 @@
 		14F7224CC3184D2A83629D97 /* coolvetica condensed rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730A0ACD5B8D4D20B0CE16E8 /* coolvetica condensed rg.ttf */; };
 		438D55796A82483586F180B3 /* coolvetica crammed rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD8B6DCC43734534BD410FC2 /* coolvetica crammed rg.ttf */; };
 		171B0C000B7849A8BC54F4D9 /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA08F38FCC854646BF2E363B /* coolvetica rg.ttf */; };
+		F597D938CCAE479BBD6C2F6C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAF77C288C6843D782D73882 /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		730A0ACD5B8D4D20B0CE16E8 /* coolvetica condensed rg.ttf */ = {isa = PBXFileReference; name = "coolvetica condensed rg.ttf"; path = "../src/fonts/coolvetica condensed rg.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DD8B6DCC43734534BD410FC2 /* coolvetica crammed rg.ttf */ = {isa = PBXFileReference; name = "coolvetica crammed rg.ttf"; path = "../src/fonts/coolvetica crammed rg.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		AA08F38FCC854646BF2E363B /* coolvetica rg.ttf */ = {isa = PBXFileReference; name = "coolvetica rg.ttf"; path = "../src/fonts/coolvetica rg.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAF77C288C6843D782D73882 /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../src/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				730A0ACD5B8D4D20B0CE16E8 /* coolvetica condensed rg.ttf */,
 				DD8B6DCC43734534BD410FC2 /* coolvetica crammed rg.ttf */,
 				AA08F38FCC854646BF2E363B /* coolvetica rg.ttf */,
+				EAF77C288C6843D782D73882 /* Lato-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				14F7224CC3184D2A83629D97 /* coolvetica condensed rg.ttf in Resources */,
 				438D55796A82483586F180B3 /* coolvetica crammed rg.ttf in Resources */,
 				171B0C000B7849A8BC54F4D9 /* coolvetica rg.ttf in Resources */,
+				F597D938CCAE479BBD6C2F6C /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
