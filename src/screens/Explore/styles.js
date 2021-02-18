@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
         paddingVertical: 32,
         borderRadius: 32,
         paddingHorizontal: 40,
+        marginBottom: 50,
     },
     profileName: {
         fontSize: 24,
