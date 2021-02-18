@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
     },
     scrollViewContent: {
         alignItems: 'center',
-        minHeight: '100%'
     },
     iconView: {
         width: 114,
