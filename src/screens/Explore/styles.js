@@ -1,6 +1,4 @@
-import {Dimensions, StyleSheet} from 'react-native';
-
-const {width: windomWidth} = Dimensions.get('window');
+import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
     header: {
