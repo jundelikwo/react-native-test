@@ -7,6 +7,7 @@ import {
     Text,
     TouchableOpacity
 } from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
 import Logo from '../../../assets/logo.svg';
 import Alarm from '../../../assets/alarm.svg';
@@ -30,7 +31,7 @@ const Activity = () => {
                     <Text style={styles.subHeading}>Nothing to see here</Text>
                     <Text style={styles.text}>You didn't made any conversation yet, please select</Text>
                 </View>
-                <TouchableOpacity style={styles.btn}>
+                <TouchableOpacity style={styles.btn} onPress={Actions.explore}>
                     <Text style={styles.btnText}>Go to Explore page</Text>
                 </TouchableOpacity>
             </ScrollView>
