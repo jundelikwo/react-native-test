@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
     },
     scrollViewContent: {
         alignItems: 'center',
-        minHeight: '100%'
     },
     searchBtn: {
         width: 50,
