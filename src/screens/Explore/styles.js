@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 24,
         fontWeight: '700',
+        textTransform: 'uppercase',
     },
     peopleBtn: {
         alignItems: 'center',
@@ -46,6 +47,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 24,
         fontWeight: '700',
+        textTransform: 'uppercase',
     },
     roomsBtn: {
         paddingLeft: 20,
