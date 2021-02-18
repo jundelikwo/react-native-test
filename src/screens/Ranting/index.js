@@ -6,6 +6,7 @@ import {
     Text,
     TouchableOpacity,
 } from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
 import RantingSVG from '../../../assets/ranting.svg';
 import styles from './styles';
@@ -31,7 +32,7 @@ const Ranting = () => {
                     </View>
                 </View>
                 <View style={styles.btnView}>
-                    <TouchableOpacity style={styles.btn}>
+                    <TouchableOpacity style={styles.btn} onPress={Actions.username}>
                         <RantingSVG width={34} height={12} />
                         <Text style={styles.btnText}>Start ranting</Text>
                     </TouchableOpacity>
