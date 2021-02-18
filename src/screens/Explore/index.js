@@ -7,6 +7,7 @@ import {
     Text,
     TouchableOpacity
 } from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
 import Logo from '../../../assets/logo.svg';
 import LogoCircle from '../../../assets/logo-circle.svg';
@@ -29,8 +30,8 @@ const Explore = () => {
                     <Text style={styles.peopleText}>People</Text>
                     <Line />
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.roomsBtn}>
-                <Text style={styles.roomsText}>Rooms</Text>
+                <TouchableOpacity style={styles.roomsBtn} onPress={Actions.rooms}>
+                    <Text style={styles.roomsText}>Rooms</Text>
                 </TouchableOpacity>
             </View>
             <ScrollView contentContainerStyle={styles.scrollViewContent}>
