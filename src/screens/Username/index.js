@@ -7,6 +7,7 @@ import {
     TouchableOpacity,
     TextInput
 } from 'react-native';
+import {Actions} from 'react-native-router-flux';
 
 import styles from './styles';
 
@@ -22,7 +23,7 @@ const Username = () => {
                     <Text style={styles.atText}>@</Text>
                     <TextInput autoFocus placeholder='username' placeholderTextColor="#FFFFFF" style={styles.input} />
                 </View>
-                <TouchableOpacity style={styles.btn}>
+                <TouchableOpacity style={styles.btn} onPress={Actions.home}>
                     <Text style={styles.btnText}>Continue</Text>
                 </TouchableOpacity>
             </KeyboardAvoidingView>
