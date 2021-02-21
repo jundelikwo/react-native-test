@@ -14,7 +14,7 @@ import Router from './src/router';
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" backgroundColor="#00070F" />
       <Router />
     </>
   )
