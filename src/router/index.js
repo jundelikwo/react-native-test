@@ -11,13 +11,13 @@ import Ranting from '../screens/Ranting';
 import Rooms from '../screens/Rooms';
 import Username from '../screens/Username';
 
-import Headphone from '../../assets/headphone.svg';
+import Headphone from '../../assets/headphone-nav.svg';
 import ActiveHeadphone from '../../assets/active-headphone.svg';
-import MessageIcon from '../../assets/message.svg';
+import MessageIcon from '../../assets/message-nav.svg';
 import ActiveMessageIcon from '../../assets/active-message.svg';
 import Wifi from '../../assets/wifi.svg';
 import ActiveWifi from '../../assets/active-wifi.svg';
-import Alarm from '../../assets/alarm.svg';
+import Alarm from '../../assets/alarm-nav.svg';
 import ActiveAlarm from '../../assets/active-alarm.svg';
 import Profile from '../../assets/profile.svg';
 import ActiveProfile from '../../assets/active-profile.svg';
